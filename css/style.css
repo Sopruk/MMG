@@ -13,10 +13,12 @@ body {
   max-width: 1170px;
   margin: 0 auto; }
 
-.header {
+header, section, footer {
   font-family: "Open Sans", sans-serif;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 auto; }
+
+.header {
   background: url("../img/Layer1.png") no-repeat;
   height: 704px; }
   .header nav {
@@ -110,5 +112,43 @@ body {
               font-size: 20px;
               font-weight: 600;
               text-transform: uppercase; }
+
+.slide {
+  height: 482px;
+  background: url("../img/slide.png") no-repeat; }
+  .slide .titles {
+    padding-top: 60px;
+    float: right;
+    text-align: right; }
+    .slide .titles h4 {
+      letter-spacing: .025em;
+      font-size: 25px;
+      font-weight: 400;
+      text-transform: uppercase; }
+    .slide .titles h2 {
+      letter-spacing: .1em;
+      margin-top: 20px;
+      font-size: 55px;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: #3c3c3c; }
+    .slide .titles p {
+      margin-top: 30px;
+      font-size: 16px;
+      font-weight: 300;
+      color: #d5d5d5; }
+    .slide .titles a {
+      margin-top: 40px;
+      margin-left: auto;
+      margin-right: 0;
+      display: block;
+      width: 200px;
+      height: 50px;
+      line-height: 50px;
+      background-color: #f4213a;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      box-shadow: 0px 0px 7px -1px #f4213a; }
 
 /*# sourceMappingURL=style.css.map */
