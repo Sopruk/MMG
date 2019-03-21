@@ -1,0 +1,114 @@
+/*------ COLOR -----*/
+/*------ FONT ------*/
+body {
+  margin: 0 auto;
+  padding: 0; }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.header {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: url("../img/Layer1.png") no-repeat;
+  height: 704px; }
+  .header nav {
+    background-color: white;
+    height: 90px; }
+    .header nav .logo {
+      float: left; }
+      .header nav .logo a {
+        line-height: 90px; }
+        .header nav .logo a img {
+          margin-top: 20px;
+          height: 50px; }
+    .header nav .menu {
+      margin: 0;
+      padding: 0;
+      float: right; }
+      .header nav .menu li {
+        margin-left: 60px;
+        display: inline; }
+        .header nav .menu li a {
+          color: #222;
+          text-decoration: none;
+          font-family: "Open Sans", sans-serif;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 90px;
+          padding-bottom: 31px;
+          transition: .4s; }
+      .header nav .menu li a:hover {
+        color: #81ce86;
+        border-bottom: 3px solid #81ce86; }
+      .header nav .menu .active a {
+        color: #81ce86;
+        border-bottom: 2px solid #81ce86; }
+      .header nav .menu .login {
+        padding: 0;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        width: 116px;
+        background-color: #2c67b1;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        box-shadow: 0px 0px 7px -1px #2c67b1; }
+  .header .container {
+    height: 100%; }
+    .header .container .row {
+      height: 100%; }
+      .header .container .row .head {
+        margin-top: 195px; }
+        .header .container .row .head h1 {
+          width: 160px;
+          margin: 0 auto;
+          padding: 0;
+          text-align: center;
+          color: white;
+          font-size: 80px;
+          font-weight: 700; }
+        .header .container .row .head .radius {
+          margin: 0 auto;
+          padding: 0;
+          width: 230px;
+          line-height: 44px;
+          text-align: center;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: #172592;
+          background-color: white;
+          border-radius: 15px 0 15px 0; }
+        .header .container .row .head .TECHNOLOGY {
+          width: 160px;
+          margin: 10px auto 0 auto;
+          padding: 0;
+          text-align: center;
+          color: white;
+          font-size: 22px;
+          font-weight: 700; }
+      .header .container .row .title {
+        padding-top: 130px; }
+        .header .container .row .title .title-item {
+          height: 155px; }
+          .header .container .row .title .title-item img {
+            float: left; }
+          .header .container .row .title .title-item .wrapper {
+            width: 85%;
+            float: right; }
+            .header .container .row .title .title-item .wrapper h4 {
+              text-align: left;
+              color: white;
+              font-size: 20px;
+              font-weight: 600;
+              text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
