@@ -9,10 +9,12 @@ body {
   display: table;
   clear: both; }
 
-.container {
-  max-width: 1170px;
-  margin: 0 auto; }
-
+/*
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+*/
 header, section, footer {
   font-family: "Open Sans", sans-serif;
   max-width: 1440px;
@@ -150,5 +152,33 @@ header, section, footer {
       text-decoration: none;
       text-align: center;
       box-shadow: 0px 0px 7px -1px #f4213a; }
+
+.function {
+  background: url("../img/function/function-background.png") no-repeat;
+  font-family: "Open Sans", sans-serif;
+  height: 670px;
+  background-color: #faf7f7; }
+  .function .container {
+    opacity: 1; }
+    .function .container .wrapper ul {
+      padding-top: 90px;
+      height: 670px; }
+      .function .container .wrapper ul li {
+        padding-top: 25px;
+        height: 160px; }
+        .function .container .wrapper ul li img {
+          margin-left: 14px;
+          height: 24px;
+          width: 24px; }
+        .function .container .wrapper ul li h4 {
+          font-size: 16px; }
+        .function .container .wrapper ul li p {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px; }
+      .function .container .wrapper ul li:hover {
+        background-color: white;
+        border-radius: 8px;
+        cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
