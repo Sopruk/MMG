@@ -187,7 +187,7 @@ header, section, footer{
         a{
             margin-top: 40px;
             margin-left: auto;
-  margin-right: 0;
+            margin-right: 0;
             display: block;
             width: 200px;
             height: 50px;
@@ -237,4 +237,33 @@ header, section, footer{
             }
         }
     }
+}
+.download{
+    font-family: $openSans;
+    color:white;
+    background-image: url("../img/download/Base.png");
+    height: 670px;
+   .container{
+    .wrapper{
+        margin-top: 210px;
+        align-items: center;
+        float: right;
+        text-align: right;
+        width: 450px;
+         h2{
+             line-height: 70px;
+             letter-spacing: .025em;
+             font-size: 35px;
+         }
+         p{
+             line-height: 30px;
+             letter-spacing: 0;
+             font-size: 16px;
+             color:#faf7f7;
+         }
+         .row{
+             margin-top:60px;
+         }
+    }
+   }
 }

@@ -181,4 +181,27 @@ header, section, footer {
         border-radius: 8px;
         cursor: pointer; }
 
+.download {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-image: url("../img/download/Base.png");
+  height: 670px; }
+  .download .container .wrapper {
+    margin-top: 210px;
+    align-items: center;
+    float: right;
+    text-align: right;
+    width: 450px; }
+    .download .container .wrapper h2 {
+      line-height: 70px;
+      letter-spacing: .025em;
+      font-size: 35px; }
+    .download .container .wrapper p {
+      line-height: 30px;
+      letter-spacing: 0;
+      font-size: 16px;
+      color: #faf7f7; }
+    .download .container .wrapper .row {
+      margin-top: 60px; }
+
 /*# sourceMappingURL=style.css.map */
