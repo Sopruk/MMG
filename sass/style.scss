@@ -24,12 +24,12 @@ body{
     clear: both;
 }
 
-/*
-.container{
-    max-width: 1170px;
+
+.container, .col, .row{
+    padding:0;
     margin: 0 auto;
 }
-*/
+
 header, section, footer{
     font-family: $openSans;
     max-width: 1440px;
@@ -266,4 +266,67 @@ header, section, footer{
          }
     }
    }
+}
+.news{
+    height: 670px;
+    .container-fluid{
+        .row{ display: flex;
+            justify-content: space-between;
+            margin-top: 80px;
+            .column{
+                    transition: .3s;
+                    width: 370px;
+                     box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.26);
+                     .img {
+                        display: inline-block;
+                        width: 350px;
+                        height: 280px;
+                        overflow: hidden;
+                        background: #FFFFFF;
+                        margin: 10px;
+                        margin-bottom: 36px;
+                      }
+                      .img img {
+                        width: 350px;
+                        border: none;   
+                        margin: 0;
+                        padding: 0;
+                      }
+                    .title{
+                        padding: 10px 10px 10px 10px;
+                        span{
+                            line-height: 25px;
+                            font-size: 16px;
+                            font-weight: $bold;
+                        }
+                        p{
+                            padding-top: 18px;
+                            font-size: 14px;
+                            font-weight: $regular;
+                            line-height: 20px;
+                        }
+                        .clearfix{
+                            .date{
+                                font-size: 14px;
+                                font-weight: $regular;
+                                line-height: 20px;
+                                float: left;
+                            }
+                            .count{
+                                font-size: 14px;
+                                font-weight: $regular;
+                                line-height: 20px;
+                                float: right;
+                            }
+                        }
+                    }
+            }
+            .column:hover{
+                background-color: #f4213a;
+                color: white;
+                cursor: pointer;
+            }
+             
+        }
+    }
 }
