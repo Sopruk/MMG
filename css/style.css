@@ -251,4 +251,29 @@ header, section, footer {
       color: white;
       cursor: pointer; }
 
+.contact {
+  height: 670px;
+  font-family: "Open Sans", sans-serif;
+  background: url("../img/contact/Background.png") no-repeat; }
+  .contact .container .row .column {
+    margin: 0 auto;
+    text-align: center;
+    width: 630px; }
+    .contact .container .row .column .img {
+      position: relative;
+      top: -3px;
+      margin-bottom: 65px; }
+    .contact .container .row .column h2 {
+      font-weight: 400;
+      color: white;
+      font-size: 35px;
+      line-height: 50px;
+      letter-spacing: .025em;
+      margin-bottom: 20px; }
+    .contact .container .row .column p {
+      font-weight: 400;
+      color: white;
+      font-size: 16px;
+      line-height: 30px; }
+
 /*# sourceMappingURL=style.css.map */

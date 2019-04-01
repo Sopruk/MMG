@@ -330,3 +330,36 @@ header, section, footer{
         }
     }
 }
+.contact{
+    height: 670px;
+    font-family:$openSans;
+    background: url("../img/contact/Background.png") no-repeat;
+    .container{
+        .row{
+            .column{
+                margin: 0 auto;
+                text-align: center;
+                width: 630px;
+                .img{
+                    position: relative;
+                    top:-3px;
+                    margin-bottom:65px;
+                }
+                h2{
+                    font-weight: $regular;
+                    color:white;
+                    font-size: 35px;
+                    line-height: 50px;
+                    letter-spacing: .025em;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-weight: $regular;
+                    color:white;
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
