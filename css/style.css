@@ -310,4 +310,30 @@ header, section, footer {
           text-decoration: none;
           color: #fff; }
 
+.footer {
+  background-color: #42b549;
+  font-family: "Open Sans", sans-serif;
+  color: white; }
+  .footer .container {
+    height: 255px; }
+    .footer .container .box {
+      display: flex;
+      padding-top: 52px;
+      height: 255px; }
+      .footer .container .box .block {
+        width: 280px;
+        font-size: 15px;
+        line-height: 21px; }
+        .footer .container .box .block h4 {
+          font-weight: 700;
+          margin-bottom: 28px; }
+        .footer .container .box .block ul {
+          padding: 0; }
+          .footer .container .box .block ul li {
+            list-style: none; }
+            .footer .container .box .block ul li a {
+              text-decoration: none;
+              font-weight: 400;
+              color: white; }
+
 /*# sourceMappingURL=style.css.map */

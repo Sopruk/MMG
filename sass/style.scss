@@ -405,3 +405,36 @@ header, section, footer{
         }
     }
 }
+.footer{
+    background-color: #42b549;
+    font-family: $openSans;
+    color:white;
+    .container{
+        height: 255px;
+        .box{
+            display: flex;
+            padding-top: 52px;
+            height: 255px;
+            .block{
+                width: 280px;
+                font-size: 15px;
+                line-height: 21px;
+                h4{
+                    font-weight: $bold;
+                    margin-bottom: 28px;
+                }
+                ul{
+                    padding: 0;
+                    li{
+                        list-style: none;
+                        a{
+                            text-decoration: none;
+                            font-weight: $regular;
+                            color:white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
