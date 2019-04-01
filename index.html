@@ -193,9 +193,14 @@
                     <h2><b>Contact</b> with us</h2>
                     <p>Contact us by phone or gmail to order new services, track orders and get customer service or tech support. </p>
                     <form action="input">
-                        <input type="text" id="fullname" placeholder="Your Name">
-                        <input type="text" id="fullname" placeholder="Email Address">
-                        <textarea id="subject" name="subject" placeholder="Message.." ></textarea>
+                        <div class="row-input">
+                            <input type="text" id="fullname" placeholder="Your Name">
+                            <input type="text" id="email" placeholder="Email Address">
+                        </div>
+                        <textarea id="message" class="message" name="message" placeholder="Message.." ></textarea>
+                        <div class="button">
+                            <a href="#" class="send-message">send</a>
+                        </div>
                     </form>
                 </div>
             </div>

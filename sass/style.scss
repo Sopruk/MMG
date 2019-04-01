@@ -342,7 +342,7 @@ header, section, footer{
                 width: 630px;
                 .img{
                     position: relative;
-                    top:-3px;
+                    top:-4px;
                     margin-bottom:65px;
                 }
                 h2{
@@ -358,6 +358,48 @@ header, section, footer{
                     color:white;
                     font-size: 16px;
                     line-height: 30px;
+                }
+                form{
+                    font-size:15px;
+                    line-height: 30px;
+                   .row-input{
+                       width: 630px;
+                        input{
+                            display: block;
+                            height: 50px;
+                            width: 305px;
+                            border-radius: 6px;
+                            padding-left: 30px;
+                        }
+                        #email{
+                            float: right;
+                        }
+                        #fullname{
+                            float: left;
+                        }
+                    }
+                    .message{
+                        height: 210px;
+                        width: 630px;
+                        border-radius: 6px;
+                        margin-top: 20px;
+                        padding: 30px;
+                        padding-top: 20px;
+                    }
+                    .button{
+                        margin-top:16px;
+                        .send-message{
+                            display: block;
+                            margin: 0 auto;
+                            line-height: 52px;
+                            height: 52px;
+                            width: 166px;
+                            text-transform: uppercase;
+                            border:1px solid #fff;
+                            text-decoration: none;
+                            color:#fff;
+                        }
+                    }
                 }
             }
         }

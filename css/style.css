@@ -261,7 +261,7 @@ header, section, footer {
     width: 630px; }
     .contact .container .row .column .img {
       position: relative;
-      top: -3px;
+      top: -4px;
       margin-bottom: 65px; }
     .contact .container .row .column h2 {
       font-weight: 400;
@@ -275,5 +275,39 @@ header, section, footer {
       color: white;
       font-size: 16px;
       line-height: 30px; }
+    .contact .container .row .column form {
+      font-size: 15px;
+      line-height: 30px; }
+      .contact .container .row .column form .row-input {
+        width: 630px; }
+        .contact .container .row .column form .row-input input {
+          display: block;
+          height: 50px;
+          width: 305px;
+          border-radius: 6px;
+          padding-left: 30px; }
+        .contact .container .row .column form .row-input #email {
+          float: right; }
+        .contact .container .row .column form .row-input #fullname {
+          float: left; }
+      .contact .container .row .column form .message {
+        height: 210px;
+        width: 630px;
+        border-radius: 6px;
+        margin-top: 20px;
+        padding: 30px;
+        padding-top: 20px; }
+      .contact .container .row .column form .button {
+        margin-top: 16px; }
+        .contact .container .row .column form .button .send-message {
+          display: block;
+          margin: 0 auto;
+          line-height: 52px;
+          height: 52px;
+          width: 166px;
+          text-transform: uppercase;
+          border: 1px solid #fff;
+          text-decoration: none;
+          color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
