@@ -411,17 +411,20 @@ header, section, footer{
     color:white;
     .container{
         height: 255px;
-        .box{
+        .row{
             display: flex;
-            padding-top: 52px;
+            padding-top: 42px;
             height: 255px;
             .block{
+                padding: 0;
                 width: 280px;
                 font-size: 15px;
                 line-height: 21px;
                 h4{
                     font-weight: $bold;
                     margin-bottom: 28px;
+                    font-size: 15px;
+                    line-height: 21px;
                 }
                 ul{
                     padding: 0;
@@ -434,6 +437,10 @@ header, section, footer{
                         }
                     }
                 }
+            }
+            .col-img{
+                width: 21px;
+                height: 21px;
             }
         }
     }

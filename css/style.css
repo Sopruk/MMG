@@ -316,24 +316,30 @@ header, section, footer {
   color: white; }
   .footer .container {
     height: 255px; }
-    .footer .container .box {
+    .footer .container .row {
       display: flex;
-      padding-top: 52px;
+      padding-top: 42px;
       height: 255px; }
-      .footer .container .box .block {
+      .footer .container .row .block {
+        padding: 0;
         width: 280px;
         font-size: 15px;
         line-height: 21px; }
-        .footer .container .box .block h4 {
+        .footer .container .row .block h4 {
           font-weight: 700;
-          margin-bottom: 28px; }
-        .footer .container .box .block ul {
+          margin-bottom: 28px;
+          font-size: 15px;
+          line-height: 21px; }
+        .footer .container .row .block ul {
           padding: 0; }
-          .footer .container .box .block ul li {
+          .footer .container .row .block ul li {
             list-style: none; }
-            .footer .container .box .block ul li a {
+            .footer .container .row .block ul li a {
               text-decoration: none;
               font-weight: 400;
               color: white; }
+      .footer .container .row .col-img {
+        width: 21px;
+        height: 21px; }
 
 /*# sourceMappingURL=style.css.map */
